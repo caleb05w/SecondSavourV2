@@ -9,7 +9,6 @@ import { FaArrowRight } from "react-icons/fa";
 function page() {
   return (
     <div className="">
-      {/* <Link href="/map">Map</Link>; */}
       <div className="w-100% bg-[#FEF7E6] flex justify-center">
         <div className="flex flex-col gap-[10vh] min-h-fit w-[90%]">
           {/* Header Section */}
@@ -53,7 +52,7 @@ function page() {
               </p>
 
               <div className="mt-[10%] mb-[10%] flex justify-left lg:mb-[1%]">
-                <Button text={"Check it out!"} clickTo={"/Shop"} />
+                <Button text={"Check it out!"} clickTo={"/shop"} />
               </div>
             </div>
 

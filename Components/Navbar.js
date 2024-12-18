@@ -20,7 +20,7 @@ function Navbar() {
         top-0 left-0 bg---color-black backdrop-blur-[8px]"
       ></div>
 
-      <div className=" flex flex-row justify-center lg:mt-[1%]">
+      <div className=" flex flex-row justify-center lg:mt-[3%]">
         <div
           className={`flex flex-col lg:flex-row justify-between lg:w-[60vw] S w-[100vw] lg:rounded-full h-fit z-30 lg:py-[1%] pb-[6vh] lg:px-[3%] fixed lg:mt-[0%] mt-[-3%] lg:pt-[21] pt-[5%] rounded-[0.5rem]  ease-in-out duration-[500ms]  lg:bg-my-beige  ${
             isOpen ? "bg-green-700" : "bg-[#fef7e6]"
